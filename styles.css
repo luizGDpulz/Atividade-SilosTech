@@ -1,0 +1,47 @@
+:root{
+    --primary-color: #2c3e50;
+    --secondary-color: #F39C12;
+    --primary-text-color: #ecf0f1;
+    --secondary-text-color: #333;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Deco*/
+header{
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
