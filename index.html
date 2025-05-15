@@ -12,14 +12,14 @@
             <div class="logo">
                 <p class="text-logo">SilosTech</p>
             </div>
-            <ul class="nav-links">
+             <ul class="nav-links">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#diferenciais">Diferenciais</a></li>
-                <li><a href="#compromisso-ambiental">Meio ambiental</a></li>
-                <li><a href="#representantes">Representantes</a></li>
+                <li><a href="#compromisso-ambiental">Meio ambiente</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#representantes">Representantes</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -29,9 +29,6 @@
             <h1>SilosTech: Inovação e Segurança para sua Colheita</h1>
             <p>Construindo o futuro do agronegócio com silos de alta performance.</p>
             <button href="#produtos" class="btn">CONHEÇA NOSSAS SOLUÇÕES</button>
-        </div>
-        <div class="hero-image">
-            <img src="images/hero_banner.jpeg" alt="Imagem de Silos">
         </div>
     </section>
     <main>
@@ -82,12 +79,12 @@
 
         <section id="compromisso-ambiental">
             <h2>Compromisso Ambiental</h2>
+            <div class="texto">
+                <p>Na SilosTech, a sustentabilidade é um pilar fundamental. Buscamos constantemente minimizar o impacto ambiental de nossas operações, desde a escolha de materiais ecologicamente corretos até a otimização de processos construtivos para reduzir o desperdicio. Nossos silos são projetados para promover a aeração eficiente, diminuindo a necessidade de defensivos e contribuindo para a qualidade do ar. Acreditamos que o progresso do agronegócio deve caminhar lado a lado com a preservação do meio ambiente, garantindo um futuro mais verde e produtivo para as próximas gerações.</p>
+            </div>
             <div class="img-ambiente">
                 <img src="images/visao_ambiental.jpeg" alt="Compromisso Ambiental">
             </div>
-            <div class="texto">
-                <p>Na SilosTech, a sustentabilidade é um pilar fundamental. Buscamos constantemente minimizar o impacto ambiental de nossas operações, desde a escolha de materiais ecologicamente corretos até a otimização de processos construtivos para reduzir o desperdicio. Nossos silos são projetados para promover a aeração eficiente, diminuindo a necessidade de defensivos e contribuindo para a qualidade do ar. Acreditamos que o progresso do agronegócio deve caminhar lado a lado com a preservação do meio ambiente, garantindo um futuro mais verde e produtivo para as próximas gerações.</p>
-            </div>-ambiente
         </section>
 
         <section id="depoimentos">
@@ -127,14 +124,18 @@
         <section id="contato">
         <h2>Entre em Contato</h2>
         <form action="#" method="post" class="contact-form">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-            
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" placeholder="Digite sua mensagem" rows="5" required></textarea>
+            <div class="form-fields">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </div>
             
             <div class="location">
                 <h3>Nossa Localização</h3>
@@ -147,8 +148,6 @@
                     <a href="">Mapa da localização da SilosTech</a>
                 </div>
             </div>
-            
-            <button type="submit" class="btn">Enviar Mensagem</button>
         </form>
         </section>
     </main>
